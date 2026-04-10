@@ -1,16 +1,25 @@
 {
   "name": "frontend",
   "version": "1.0.0",
-  "type":"module",
   "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/A00841358/TC2005B_A00841358_Act1#readme",
+  "bugs": {
+    "url": "https://github.com/A00841358/TC2005B_A00841358_Act1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A00841358/TC2005B_A00841358_Act1.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^5.2.1"
-  }
+  },
+  "devDependencies": {}
 }
