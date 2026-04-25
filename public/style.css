@@ -3,8 +3,8 @@ body {
     background-size: 150%;
 }
 .User {
-    text-align: center;
-    width: 350px;
+    text-align: left;
+    width: 750px;
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
@@ -16,20 +16,58 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.button {
-    margin-top: 15px;
-    padding: 5px 20px;
+.User .buttonLogin {
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+    padding: 5px 30px;
     border-color: rgba(50, 44, 44, 0.759);
     background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 2px 2px 4px rgba(50, 44, 44, 0.759);
 
 }
 
+.User .loginText {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.loginTest {
+    margin: 0;
+    display: flex;
+    min-height: 90vh;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.radioOptions{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.checks {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.location {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
 .User h1 {
     color: white;
     text-shadow: 2px 2px 4px rgba(50, 44, 44, 0.759);
     letter-spacing: 1px;
-    margin: 40px;
+    margin: 25px;
     text-align: center;
 }
 

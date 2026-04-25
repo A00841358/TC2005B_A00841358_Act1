@@ -34,21 +34,67 @@
     </div>
 </nav>
 
-<form class="User">
+<div class="User">
+<form>
   <h1>Log In</h1>
     <div>
-        <label for="username">Usuario</label></br>
-        <input type="text" id="username" required></br>
+        <label for="username" class="loginLabel">Usuario</label>
+        <input type="text" id="username" class="loginText"></br>
+    </div>
+
+    <div>
+        <label for="password" class="loginLabel">Contraseña</label>
+        <input type="password" id="password" class="loginText"></br>
     </div>
     <div>
-        <label for="password">Contraseña</label></br>
-        <input type="password" id="password" required></br>
+      <input class="buttonLogin" type="submit" id="btnEntrar" value="Entrar"/>
     </div>
-    <input class="button" type="submit" value="Entrar"/>
+
+    <div class="radioOptions">
+      <div>
+        <input type="radio" name="opcion" id="invitado">
+        <label for="invitado">Invitado</label>
+      </div>
+      <div>
+        <input type="radio" name="opcion" id="administrador">
+        <label for="administrador">Administrador</label>
+      </div>
+    </div>
+
+    <div class="location">
+    <div>
+      <select id="paises">
+      <option value="">-Selecciona un pais-</option>
+      </select>
+    </div>
+    <div>
+      <select id="regiones">
+        <option value="">-Selecciona una region-</option>
+      </select>
+    </div>
+    </div>
+
+  <div class="checks">
+    <div>
+        <input type="checkbox" id="extraCheck">
+        <label for="extraCheck">Acepto política de privacidad</label>
+    </div>
+
+    <div>
+      <input type="checkbox" name="terms" id="terms">
+      <label for="terms">Terminos y condiciones</label>
+    </div>
+  </div>
+</div>
 </form>
 
-</br>
+<footer class="loginTest">
+    <small>
+        Usuario: 1234 <br> Contraseña: 1234
+    </small>
+</footer>
 
+    <script src="../Scripts/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
